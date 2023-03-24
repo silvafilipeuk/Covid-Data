@@ -1,7 +1,7 @@
 Covid Data
 
 
-Up to 23/03/2023
+Up to 21/03/2023
 Source: https://ourworldindata.org/
 
 
