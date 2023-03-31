@@ -103,5 +103,3 @@ from PopVsVac
 --SELECT SUM(new_cases) as 'cases',  SUM(cast(new_deaths as int)) as 'deaths', SUM(cast(new_deaths as int))/nullif(SUM(new_cases),0)*100 as "death_percentage"
 --FROM [dbo].['owid-covid-data-deaths']
 --WHERE continent is not null
-
-
