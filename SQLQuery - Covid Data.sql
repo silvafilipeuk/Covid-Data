@@ -1,3 +1,5 @@
+-- Author: Filipe da Silva
+
 USE [Covid]
 
 GO
