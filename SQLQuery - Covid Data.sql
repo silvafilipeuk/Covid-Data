@@ -105,3 +105,15 @@ from PopVsVac
 --SELECT SUM(new_cases) as 'cases',  SUM(cast(new_deaths as int)) as 'deaths', SUM(cast(new_deaths as int))/nullif(SUM(new_cases),0)*100 as "death_percentage"
 --FROM [dbo].['owid-covid-data-deaths']
 --WHERE continent is not null
+
+--CREATE VIEW Total_Vaccinations_Per_Country as 
+--SELECT Location, MAX(CAST(total_vaccinations as bigint)) as "Total_Vaccinations"
+--FROM [dbo].['owid-covid-data-vaccinations']
+--WHERE Continent is not NULL
+--GROUP BY Location
+
+--CREATE VIEW Total_Deaths_Per_Country as
+--SELECT Location, MAX(CAST(total_deaths as int)) as 'Total_Deaths'
+--FROM [dbo].['owid-covid-data-deaths']
+--WHERE Continent is not NULL
+--GROUP BY Location
