@@ -107,13 +107,19 @@ from PopVsVac
 --WHERE continent is not null
 
 --CREATE VIEW Total_Vaccinations_Per_Country as 
---SELECT Location, MAX(CAST(total_vaccinations as bigint)) as "Total_Vaccinations"
---FROM [dbo].['owid-covid-data-vaccinations']
---WHERE Continent is not NULL
---GROUP BY Location
+SELECT Location, MAX(CAST(total_vaccinations as bigint)) as "Total_Vaccinations"
+FROM [dbo].['owid-covid-data-vaccinations']
+WHERE Continent is not NULL
+GROUP BY Location
 
 --CREATE VIEW Total_Deaths_Per_Country as
---SELECT Location, MAX(CAST(total_deaths as int)) as 'Total_Deaths'
---FROM [dbo].['owid-covid-data-deaths']
---WHERE Continent is not NULL
---GROUP BY Location
+SELECT Location, MAX(CAST(total_deaths as int)) as 'Total_Deaths'
+FROM [dbo].['owid-covid-data-deaths']
+WHERE Continent is not NULL
+GROUP BY Location
+
+--CREATE VIEW Total_Cases_Per_Country as
+SELECT Location, MAX(CAST(total_cases as int)) as 'Total_Cases'
+FROM [dbo].['owid-covid-data-deaths']
+WHERE Continent is not NULL
+GROUP BY Location
