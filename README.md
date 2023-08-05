@@ -10,7 +10,7 @@ Tableau Visualization: https://public.tableau.com/app/profile/filipe.da.silva/vi
 
 Power BI Simple Dashboard: https://app.powerbi.com/links/wQfWz1yzdN?ctid=73f552bd-ac3f-4bba-adb9-042ab903f40a&pbi_source=linkShare
 
-![PowerBI Dashboard](https://github.com/silvafilipeuk/Covid-Data/blob/main/images/PowerBI%20-%20Dashboard%201.png?raw=true)
+![PowerBI Dashboard](https://app.powerbi.com/groups/me/reports/7c79c63e-7102-4a12-ac5c-8f8a137bb587/ReportSection?experience=power-bi).
 
 
 ---------------------
