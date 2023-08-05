@@ -118,8 +118,8 @@ FROM [dbo].['owid-covid-data-deaths']
 WHERE Continent is not NULL
 GROUP BY Location
 
---CREATE VIEW Total_Cases_Per_Country as
+CREATE VIEW Total_Cases_Per_Country as
 SELECT Location, MAX(CAST(total_cases as int)) as 'Total_Cases'
-FROM [dbo].['owid-covid-data-deaths']
+FROM ['owid-covid-data-deaths']
 WHERE Continent is not NULL
 GROUP BY Location
